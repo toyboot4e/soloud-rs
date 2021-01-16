@@ -125,9 +125,7 @@ extern crate soloud_derive;
 #[macro_use]
 extern crate bitflags;
 
-pub use audio::*;
-pub use filter::*;
-pub use prelude::*;
+use prelude::*;
 
 use soloud_sys::soloud as ffi;
 
